@@ -9,7 +9,7 @@ on:
 env:
   DOCKER_HUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
   DOCKER_HUB_TOKEN: ${{ secrets.DOCKER_HUB_TOKEN }}
-  IMAGE_NAME: your-dockerhub-username/nodejs-ci-cd-demo
+  IMAGE_NAME: defople/nodejs-ci-cd-test
 
 jobs:
   test:
